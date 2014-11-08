@@ -1,0 +1,9 @@
+2014-11-07 19:09:29,980 Host resolution error: [Failure instance: Traceback: <type 'exceptions.ValueError'>: I/O operation on closed file.
+/home/derek/Documents/development/SchoolStuff/D27/ssl/lib/python2.7/site-packages/Twisted-13.1.0-py2.7-linux-x86_64.egg/twisted/internet/defer.py:575:_runCallbacks
+/home/derek/Documents/development/SchoolStuff/D27/ssl/lib/python2.7/site-packages/Twisted-13.1.0-py2.7-linux-x86_64.egg/twisted/internet/base.py:253:_checkTimeout
+/home/derek/Documents/development/SchoolStuff/D27/ssl/lib/python2.7/site-packages/Twisted-13.1.0-py2.7-linux-x86_64.egg/twisted/internet/defer.py:380:callback
+/home/derek/Documents/development/SchoolStuff/D27/ssl/lib/python2.7/site-packages/Twisted-13.1.0-py2.7-linux-x86_64.egg/twisted/internet/defer.py:488:_startRunCallbacks
+--- <exception caught here> ---
+/home/derek/Documents/development/SchoolStuff/D27/ssl/lib/python2.7/site-packages/Twisted-13.1.0-py2.7-linux-x86_64.egg/twisted/internet/defer.py:575:_runCallbacks
+/home/derek/Documents/development/SchoolStuff/D27/ssl/lib/python2.7/site-packages/sslstrip/ClientRequest.py:92:handleHostResolvedSuccess
+]

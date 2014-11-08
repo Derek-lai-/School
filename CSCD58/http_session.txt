@@ -1,0 +1,5 @@
+# session 1 - modify to refer to file names in your testing directory
+ /ports.html
+ /d58.css
+ /http_latency.jpg
+ /http_latency.jpg

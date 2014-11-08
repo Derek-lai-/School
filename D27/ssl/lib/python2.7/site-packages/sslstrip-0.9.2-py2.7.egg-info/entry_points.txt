@@ -1,0 +1,3 @@
+[console_scripts]
+sslstrip = sslstrip.sslstrip:_main
+
