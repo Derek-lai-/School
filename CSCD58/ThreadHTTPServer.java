@@ -11,7 +11,7 @@ import java.text.SimpleDateFormat;
 
 class HTTPThread implements Runnable {
 	public Socket connectionSocket = null;
-	public String http_root_path = null;
+	public String http_root_path = "/csmhome/laihoche/cscd58f14_space/";
 	public static Date lastMod;
     public static SimpleDateFormat fmt;
 
@@ -27,6 +27,7 @@ class HTTPThread implements Runnable {
     	try {
     		processRequest(connectionSocket);
     	} catch (Exception e) {
+    		System.out.println(e);
     	}
     } 
 
@@ -53,6 +54,9 @@ class HTTPThread implements Runnable {
 				String last = requestHeader.replace("If-Modified-Since: ","");
 				fmt = new SimpleDateFormat("EEE, dd MMM yyyy HH:mm:ss zzz");
 				Date lastMod = fmt.parse(last);
+			} else if (requestHeader.startsWith("Connection: keep-alive")){
+				connectionSocket.setSoTimeout(1000);
+				System.out.println("Request Header: Timeout Set: " + connectionSocket.getSoTimeout());
 			}
 		}
 
@@ -137,6 +141,8 @@ class HTTPThread implements Runnable {
 		    	System.out.println("Response header: Last-Modified: "+ fileDate + "\r\n");	
 		  	}
 
+		  	inFile.close();
+
 		    outToClient.writeBytes("\r\n\r\n");
 		    // send file content
 		    outToClient.write(fileInBytes, 0, numOfBytes);
@@ -156,7 +162,9 @@ public final class ThreadHTTPServer {
     
     public static void main(String args[]) throws Exception  {
 
-		if (args.length > 0){
+		if (args.length == 1){
+    		serverPort = Integer.parseInt(args[0]);
+    	} else if (args.length == 2) {
     		serverPort = Integer.parseInt(args[0]);
     		http_root_path = args[1];
     	}
@@ -172,7 +180,7 @@ public final class ThreadHTTPServer {
 		try{
 			serverSocket = new ServerSocket(serverPort);
 		} catch (Exception e) {
-			System.exit(1);
+			System.out.println(e);
 		}
 
 		System.out.println("Listening on port # " + serverPort + " with server path " + http_root_path);
