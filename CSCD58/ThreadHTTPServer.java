@@ -126,10 +126,10 @@ class HTTPThreads implements Runnable {
 
 		    // ADD_CODE: generate HTTP Content-Length response header; output to stdout
 
-		   	//outToClient.writeBytes("Content-Length: " + numOfBytes + "\r\n");
+		   	outToClient.writeBytes("Content-Length: " + numOfBytes + "\r\n");
 		    //System.out.println("Response Header: Content-Length: " + numOfBytes + "\r\n");
 		    SimpleDateFormat sdf = new SimpleDateFormat("MM/dd/yyyy HH:mm:ss");
-		    //outToClient.writeBytes("Last-Modified: " + file.lastModified() + "\r\n");
+		    outToClient.writeBytes("Last-Modified: " + file.lastModified() + "\r\n");
 		    //System.out.println("Response header: Last-Modified: "+ sdf.format(file.lastModified()) + "\r\n");
 
 		    inFile.close();
@@ -171,7 +171,7 @@ public final class ThreadHTTPServer {
 			System.exit(1);
 		}
 
-		//System.out.println("Listening on port # " + serverPort + " with server path " + http_root_path);
+		System.out.println("Listening on port # " + serverPort + " with server path " + http_root_path);
 
 		Socket clientSocket = null;
 	

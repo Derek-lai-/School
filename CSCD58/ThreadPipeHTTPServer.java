@@ -27,7 +27,7 @@ class HTTPThread implements Runnable {
     	try {
     		processRequest(connectionSocket);
     	} catch (SocketTimeoutException e){
-    		System.out.println("Timeout");
+    		//System.out.println("Timeout");
 
     		try {
     			this.connectionSocket.close();
@@ -53,11 +53,11 @@ class HTTPThread implements Runnable {
 		 * print to stdout any request headers (which we will ignore).
 		 */
 		requestLine = inFromClient.readLine();
-		System.out.println("Request Line: " + requestLine);
+		//System.out.println("Request Line: " + requestLine);
 
 		requestHeader = inFromClient.readLine();
 		while (!requestHeader.equals("")) {
-			System.out.println("Request Header: " + requestHeader);
+			//System.out.println("Request Header: " + requestHeader);
 			requestHeader = inFromClient.readLine();
 			if (requestHeader.startsWith("If-Modified-Since:")){
 				String last = requestHeader.replace("If-Modified-Since: ","");
@@ -66,7 +66,7 @@ class HTTPThread implements Runnable {
 			}
 			if (this.connectionSocket.getKeepAlive()){
 				this.connectionSocket.setSoTimeout(2000);
-				System.out.println("Request Header: Timeout Set: " + this.connectionSocket.getSoTimeout());
+				//System.out.println("Request Header: Timeout Set: " + this.connectionSocket.getSoTimeout());
 			}
 		}
 
@@ -95,7 +95,7 @@ class HTTPThread implements Runnable {
     	DataOutputStream outToClient = new DataOutputStream(connectionSocket.getOutputStream());
 
 		String fileLoc = http_root_path + "/" + urlName; // ADD_CODE: map urlName to rooted path  
-		System.out.println ("Request Line: GET " + fileLoc);
+		//System.out.println ("Request Line: GET " + fileLoc);
 
 		File file = new File( fileLoc );
 		if (!file.isFile())
@@ -103,7 +103,7 @@ class HTTPThread implements Runnable {
 		    // generate 404 File Not Found response header
 		    outToClient.writeBytes("HTTP/1.0 404 File Not Found\r\n");
 		    // and output a copy to server's stdout
-		    System.out.println ("HTTP/1.0 404 File Not Found\r\n");
+		    //.out.println ("HTTP/1.0 404 File Not Found\r\n");
 		} else {
 		    // get the requested file content
 		    int numOfBytes = (int) file.length();
@@ -115,44 +115,44 @@ class HTTPThread implements Runnable {
 
 		    // ADD_CODE: generate HTTP response line; output to stdout
 		    outToClient.writeBytes("HTTP/1.0 200 OK\n");
-		    System.out.println("Response line: HTTP/1.0 200 OK");
+		    //System.out.println("Response line: HTTP/1.0 200 OK");
 
 		    if (connectionSocket.getKeepAlive()){
 		    	outToClient.writeBytes("Response header: Connection: keep-alive");
-		    	System.out.println("Response header: Connection: keep-alive");
+		    	//System.out.println("Response header: Connection: keep-alive");
 		    	outToClient.writeBytes("Response header: Timeout Set: " + connectionSocket.getSoTimeout());
 		    }
 		
 		    // ADD_CODE: generate HTTP Content-Type response header; output to stdout
 		    if (urlName.endsWith(".jpg")){
 		    	outToClient.writeBytes("Content-Type: image/jpeg\n");
-		    	System.out.println("Response Header: Content-Type: image/jpeg\n");
+		    	//System.out.println("Response Header: Content-Type: image/jpeg\n");
 		    } else if (urlName.endsWith(".html")){
 		    	outToClient.writeBytes("Content-Type: text/html\n");
-		    	System.out.println("Response Header: Content-Type: text/html\n");
+		    	//System.out.println("Response Header: Content-Type: text/html\n");
 		    } else if (urlName.endsWith(".css")){
 		    	outToClient.writeBytes("Content-Type: text/css\n");
-		    	System.out.println("Response Header: Content-Type: text/css\n");
+		    	//System.out.println("Response Header: Content-Type: text/css\n");
 		    } else if (urlName.endsWith(".js")){
 		    	outToClient.writeBytes("Content-Type: text/js\n");
-		    	System.out.println("Response Header: Content-Type: text/js\n");
+		    	//System.out.println("Response Header: Content-Type: text/js\n");
 		    } else if (urlName.endsWith(".txt")){
 		    	outToClient.writeBytes("Content-Type: text/txt\n");
-		    	System.out.println("Response Header: Content-Type: text/txt\n");
+		    	//System.out.println("Response Header: Content-Type: text/txt\n");
 		    }
 
 		    // ADD_CODE: generate HTTP Content-Length response header; output to stdout
 
 		   	outToClient.writeBytes("Content-Length: " + numOfBytes + "\r\n");
-		    System.out.println("Response Header: Content-Length: " + numOfBytes + "\r\n");
+		    //System.out.println("Response Header: Content-Length: " + numOfBytes + "\r\n");
 
 		    Date fileDate = new Date(file.lastModified());
 		  	if (lastMod ==  fileDate){
 		  		outToClient.writeBytes("HTTP/1.0 304 OK\n");
-		    	System.out.println("Response line: HTTP/1.0 304 OK");
+		    	//System.out.println("Response line: HTTP/1.0 304 OK");
 		  	} else {
 		  		outToClient.writeBytes("Last-Modified: " + fileDate + "\r\n");
-		    	System.out.println("Response Header: Last-Modified: "+ fileDate + "\r\n");	
+		    	//System.out.println("Response Header: Last-Modified: "+ fileDate + "\r\n");	
 		  	}
 
 		  	inFile.close();
@@ -205,7 +205,7 @@ public final class ThreadPipeHTTPServer {
 		    // accept a connection
 		    try {
 		    	clientSocket = serverSocket.accept();
-		    	System.out.println("Connection from " + clientSocket.getInetAddress() + "." + clientSocket.getPort());
+		    	//System.out.println("Connection from " + clientSocket.getInetAddress() + "." + clientSocket.getPort());
 		    	// Construct an HTTPThread object to process the accepted connection
 		    	HTTPThread htt;
 		    	// Wrap the HTTPThread in a Thread object

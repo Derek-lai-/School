@@ -1,0 +1,1165 @@
+
+** (sublime_text:29494): WARNING **: Pixbuf theme: Cannot load pixmap file /usr/share/themes/Adwaita/gtk-2.0/Menu-Menubar/menubar_button.png: Failed to load image '/usr/share/themes/Adwaita/gtk-2.0/Menu-Menubar/menubar_button.png': Fatal error in PNG image file: bad parameters to zlib
+
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_width: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_height: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+** (sublime_text:29494): WARNING **: Invalid borders specified for theme pixmap:
+        /usr/share/themes/Adwaita/gtk-2.0/Menu-Menubar/menubar_button.png,
+borders don't fit within the image
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_n_channels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_pixels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_rowstride: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_n_channels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_pixels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_rowstride: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_n_channels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_pixels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_rowstride: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_n_channels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_pixels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_rowstride: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_n_channels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_pixels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_rowstride: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_n_channels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_pixels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_rowstride: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_n_channels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_pixels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_rowstride: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_n_channels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_pixels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_rowstride: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_n_channels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_pixels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_rowstride: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_width: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_height: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+** (sublime_text:29494): WARNING **: Pixbuf theme: Cannot load pixmap file /usr/share/themes/Adwaita/gtk-2.0/Arrows/menu-arrow.png: Failed to load image '/usr/share/themes/Adwaita/gtk-2.0/Arrows/menu-arrow.png': Fatal error in PNG image file: bad parameters to zlib
+
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_width: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_height: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_width: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_height: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_width: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_height: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+** (sublime_text:29494): WARNING **: Pixbuf theme: Cannot load pixmap file /usr/share/themes/Adwaita/gtk-2.0/Lines/menu_line_h.png: Failed to load image '/usr/share/themes/Adwaita/gtk-2.0/Lines/menu_line_h.png': Fatal error in PNG image file: bad parameters to zlib
+
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_width: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_height: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+** (sublime_text:29494): WARNING **: Invalid borders specified for theme pixmap:
+        /usr/share/themes/Adwaita/gtk-2.0/Lines/menu_line_h.png,
+borders don't fit within the image
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_n_channels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_pixels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_rowstride: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_n_channels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_pixels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_rowstride: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_n_channels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_pixels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_rowstride: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_n_channels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_pixels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_rowstride: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_n_channels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_pixels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_rowstride: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_n_channels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_pixels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_rowstride: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_n_channels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_pixels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_rowstride: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_n_channels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_pixels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_rowstride: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_n_channels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_pixels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_rowstride: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_width: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_height: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_width: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_height: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+** (sublime_text:29494): WARNING **: Invalid borders specified for theme pixmap:
+        /usr/share/themes/Adwaita/gtk-2.0/Lines/menu_line_h.png,
+borders don't fit within the image
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_n_channels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_pixels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_rowstride: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_n_channels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_pixels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_rowstride: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_n_channels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_pixels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_rowstride: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_n_channels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_pixels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_rowstride: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_n_channels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_pixels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_rowstride: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_n_channels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_pixels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_rowstride: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_n_channels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_pixels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_rowstride: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_n_channels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_pixels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_rowstride: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_n_channels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_pixels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_rowstride: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_width: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_height: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_width: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_height: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+** (sublime_text:29494): WARNING **: Invalid borders specified for theme pixmap:
+        /usr/share/themes/Adwaita/gtk-2.0/Menu-Menubar/menubar_button.png,
+borders don't fit within the image
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_n_channels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_pixels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_rowstride: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_n_channels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_pixels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_rowstride: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_n_channels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_pixels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_rowstride: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_n_channels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_pixels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_rowstride: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_n_channels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_pixels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_rowstride: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_n_channels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_pixels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_rowstride: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_n_channels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_pixels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_rowstride: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_n_channels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_pixels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_rowstride: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_n_channels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_pixels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_rowstride: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_width: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_height: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+** (sublime_text:29494): WARNING **: Pixbuf theme: Cannot load pixmap file /usr/share/themes/Adwaita/gtk-2.0/Others/null.png: Failed to load image '/usr/share/themes/Adwaita/gtk-2.0/Others/null.png': Fatal error in PNG image file: bad parameters to zlib
+
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_width: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_height: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+** (sublime_text:29494): WARNING **: Invalid borders specified for theme pixmap:
+        /usr/share/themes/Adwaita/gtk-2.0/Others/null.png,
+borders don't fit within the image
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_n_channels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_pixels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_rowstride: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_n_channels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_pixels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_rowstride: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_n_channels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_pixels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_rowstride: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_n_channels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_pixels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_rowstride: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_n_channels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_pixels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_rowstride: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_n_channels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_pixels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_rowstride: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_n_channels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_pixels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_rowstride: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_n_channels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_pixels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_rowstride: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_n_channels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_pixels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_rowstride: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_width: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_height: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_width: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_height: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+** (sublime_text:29494): WARNING **: Invalid borders specified for theme pixmap:
+        /usr/share/themes/Adwaita/gtk-2.0/Menu-Menubar/menubar_button.png,
+borders don't fit within the image
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_n_channels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_pixels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_rowstride: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_n_channels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_pixels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_rowstride: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_n_channels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_pixels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_rowstride: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_n_channels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_pixels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_rowstride: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_n_channels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_pixels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_rowstride: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_n_channels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_pixels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_rowstride: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_n_channels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_pixels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_rowstride: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_n_channels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_pixels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_rowstride: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_n_channels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_pixels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_rowstride: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_width: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_height: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_width: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_height: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+** (sublime_text:29494): WARNING **: Invalid borders specified for theme pixmap:
+        /usr/share/themes/Adwaita/gtk-2.0/Others/null.png,
+borders don't fit within the image
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_n_channels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_pixels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_rowstride: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_n_channels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_pixels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_rowstride: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_n_channels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_pixels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_rowstride: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_n_channels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_pixels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_rowstride: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_n_channels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_pixels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_rowstride: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_n_channels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_pixels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_rowstride: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_n_channels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_pixels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_rowstride: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_n_channels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_pixels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_rowstride: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_n_channels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_pixels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_rowstride: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_width: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_height: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_width: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_height: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+** (sublime_text:29494): WARNING **: Invalid borders specified for theme pixmap:
+        /usr/share/themes/Adwaita/gtk-2.0/Menu-Menubar/menubar_button.png,
+borders don't fit within the image
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_n_channels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_pixels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_rowstride: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_n_channels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_pixels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_rowstride: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_n_channels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_pixels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_rowstride: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_n_channels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_pixels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_rowstride: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_n_channels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_pixels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_rowstride: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_n_channels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_pixels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_rowstride: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_n_channels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_pixels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_rowstride: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_n_channels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_pixels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_rowstride: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_n_channels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_pixels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_rowstride: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_width: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_height: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_width: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_height: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+** (sublime_text:29494): WARNING **: Invalid borders specified for theme pixmap:
+        /usr/share/themes/Adwaita/gtk-2.0/Others/null.png,
+borders don't fit within the image
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_n_channels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_pixels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_rowstride: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_n_channels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_pixels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_rowstride: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_n_channels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_pixels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_rowstride: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_n_channels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_pixels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_rowstride: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_n_channels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_pixels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_rowstride: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_n_channels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_pixels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_rowstride: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_n_channels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_pixels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_rowstride: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_n_channels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_pixels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_rowstride: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_n_channels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_pixels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_rowstride: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_width: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_height: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_width: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_height: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+** (sublime_text:29494): WARNING **: Invalid borders specified for theme pixmap:
+        /usr/share/themes/Adwaita/gtk-2.0/Menu-Menubar/menubar_button.png,
+borders don't fit within the image
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_n_channels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_pixels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_rowstride: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_n_channels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_pixels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_rowstride: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_n_channels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_pixels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_rowstride: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_n_channels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_pixels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_rowstride: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_n_channels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_pixels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_rowstride: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_n_channels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_pixels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_rowstride: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_n_channels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_pixels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_rowstride: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_n_channels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_pixels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_rowstride: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_n_channels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_pixels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_rowstride: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_width: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_height: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_width: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_height: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+** (sublime_text:29494): WARNING **: Invalid borders specified for theme pixmap:
+        /usr/share/themes/Adwaita/gtk-2.0/Others/null.png,
+borders don't fit within the image
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_n_channels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_pixels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_rowstride: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_n_channels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_pixels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_rowstride: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_n_channels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_pixels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_rowstride: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_n_channels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_pixels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_rowstride: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_n_channels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_pixels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_rowstride: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_n_channels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_pixels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_rowstride: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_n_channels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_pixels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_rowstride: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_n_channels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_pixels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_rowstride: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_n_channels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_pixels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_rowstride: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_width: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_height: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+** (sublime_text:29494): WARNING **: Pixbuf theme: Cannot load pixmap file /usr/share/themes/Adwaita/gtk-2.0/Arrows/menu-arrow-prelight.png: Failed to load image '/usr/share/themes/Adwaita/gtk-2.0/Arrows/menu-arrow-prelight.png': Fatal error in PNG image file: bad parameters to zlib
+
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_width: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_height: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_width: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_height: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+** (sublime_text:29494): WARNING **: Invalid borders specified for theme pixmap:
+        /usr/share/themes/Adwaita/gtk-2.0/Menu-Menubar/menubar_button.png,
+borders don't fit within the image
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_n_channels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_pixels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_rowstride: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_n_channels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_pixels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_rowstride: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_n_channels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_pixels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_rowstride: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_n_channels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_pixels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_rowstride: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_n_channels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_pixels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_rowstride: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_n_channels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_pixels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_rowstride: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_n_channels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_pixels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_rowstride: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_n_channels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_pixels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_rowstride: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_n_channels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_pixels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_rowstride: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_width: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_height: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_width: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_height: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_width: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_height: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+** (sublime_text:29494): WARNING **: Invalid borders specified for theme pixmap:
+        /usr/share/themes/Adwaita/gtk-2.0/Others/null.png,
+borders don't fit within the image
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_n_channels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_pixels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_rowstride: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_n_channels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_pixels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_rowstride: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_n_channels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_pixels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_rowstride: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_n_channels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_pixels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_rowstride: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_n_channels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_pixels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_rowstride: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_n_channels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_pixels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_rowstride: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_n_channels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_pixels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_rowstride: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_n_channels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_pixels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_rowstride: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_n_channels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_pixels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_rowstride: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_width: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_height: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_width: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_height: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_width: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_height: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+** (sublime_text:29494): WARNING **: Invalid borders specified for theme pixmap:
+        /usr/share/themes/Adwaita/gtk-2.0/Menu-Menubar/menubar_button.png,
+borders don't fit within the image
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_n_channels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_pixels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_rowstride: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_n_channels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_pixels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_rowstride: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_n_channels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_pixels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_rowstride: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_n_channels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_pixels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_rowstride: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_n_channels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_pixels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_rowstride: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_n_channels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_pixels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_rowstride: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_n_channels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_pixels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_rowstride: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_n_channels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_pixels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_rowstride: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_n_channels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_pixels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_rowstride: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_width: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_height: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_width: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_height: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_width: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_height: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+** (sublime_text:29494): WARNING **: Invalid borders specified for theme pixmap:
+        /usr/share/themes/Adwaita/gtk-2.0/Others/null.png,
+borders don't fit within the image
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_n_channels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_pixels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_rowstride: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_n_channels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_pixels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_rowstride: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_n_channels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_pixels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_rowstride: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_n_channels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_pixels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_rowstride: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_n_channels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_pixels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_rowstride: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_n_channels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_pixels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_rowstride: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_n_channels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_pixels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_rowstride: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_n_channels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_pixels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_rowstride: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_n_channels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_pixels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_rowstride: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_width: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_height: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_width: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_height: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+** (sublime_text:29494): WARNING **: Invalid borders specified for theme pixmap:
+        /usr/share/themes/Adwaita/gtk-2.0/Menu-Menubar/menubar_button.png,
+borders don't fit within the image
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_n_channels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_pixels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_rowstride: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_n_channels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_pixels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_rowstride: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_n_channels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_pixels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_rowstride: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_n_channels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_pixels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_rowstride: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_n_channels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_pixels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_rowstride: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_n_channels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_pixels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_rowstride: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_n_channels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_pixels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_rowstride: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_n_channels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_pixels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_rowstride: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_n_channels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_pixels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_rowstride: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_width: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_height: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_width: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_height: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+** (sublime_text:29494): WARNING **: Invalid borders specified for theme pixmap:
+        /usr/share/themes/Adwaita/gtk-2.0/Others/null.png,
+borders don't fit within the image
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_n_channels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_pixels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_rowstride: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_n_channels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_pixels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_rowstride: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_n_channels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_pixels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_rowstride: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_n_channels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_pixels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_rowstride: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_n_channels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_pixels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_rowstride: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_n_channels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_pixels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_rowstride: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_n_channels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_pixels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_rowstride: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_n_channels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_pixels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_rowstride: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_n_channels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_pixels: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_rowstride: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_width: assertion 'GDK_IS_PIXBUF (pixbuf)' failed
+
+(sublime_text:29494): GdkPixbuf-CRITICAL **: gdk_pixbuf_get_height: assertion 'GDK_IS_PIXBUF (pixbuf)' failed

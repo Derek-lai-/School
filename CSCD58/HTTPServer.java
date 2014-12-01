@@ -83,7 +83,7 @@ public final class HTTPServer {
 
 				requestHeader = inFromClient.readLine();
 				while (!requestHeader.equals("")) {
-					System.out.println("Request Header: " + requestHeader);
+					//System.out.println("Request Header: " + requestHeader);
 					requestHeader = inFromClient.readLine();
 
 					if (requestHeader.startsWith("If-Modified-Since:")){
@@ -141,38 +141,38 @@ public final class HTTPServer {
 		    inFile.read(fileInBytes);
 
 		    // ADD_CODE: generate HTTP response line; output to stdout
-		    //outToClient.writeBytes("HTTP/1.0 200 OK\n");
+		    outToClient.writeBytes("HTTP/1.0 200 OK\n");
 		    //System.out.println("Response line: HTTP/1.0 200 OK");
 		
 		    // ADD_CODE: generate HTTP Content-Type response header; output to stdout
 		    if (urlName.endsWith(".jpg")){
-		    	//outToClient.writeBytes("Content-Type: image/jpeg\r\n");
+		    	outToClient.writeBytes("Content-Type: image/jpeg\r\n");
 		    	//System.out.println("Response header: Content-Type: image/jpeg\r\n");
 		    } else if (urlName.endsWith(".html")){
-		    	//outToClient.writeBytes("Content-Type: text/html\r\n");
+		    	outToClient.writeBytes("Content-Type: text/html\r\n");
 		    	//System.out.println("Response header: Content-Type: text/html\r\n");
 		    } else if (urlName.endsWith(".css")){
-		    	//outToClient.writeBytes("Content-Type: text/css\r\n");
+		    	outToClient.writeBytes("Content-Type: text/css\r\n");
 		    	//System.out.println("Response header: Content-Type: text/css\r\n");
 		    } else if (urlName.endsWith(".js")){
-		    	//outToClient.writeBytes("Content-Type: text/js\r\n");
+		    	outToClient.writeBytes("Content-Type: text/js\r\n");
 		    	//System.out.println("Response header: Content-Type: text/js\r\n");
 		    } else if (urlName.endsWith(".txt")){
-		    	//outToClient.writeBytes("Content-Type: text/plain\r\n");
+		    	outToClient.writeBytes("Content-Type: text/plain\r\n");
 		    	//System.out.println("Response header: Content-Type: text/plain\r\n");
 		    }
 
 		    // ADD_CODE: generate HTTP Content-Length response header; output to stdout
 
-		    //outToClient.writeBytes("Content-Length: " + numOfBytes + "\r\n");
+		    outToClient.writeBytes("Content-Length: " + numOfBytes + "\r\n");
 		    //System.out.println("Response Header: Content-Length: " + numOfBytes + "\r\n");
 
 		    Date fileDate = new Date(file.lastModified());
 		  	if (lastMod ==  fileDate){
-		  		//outToClient.writeBytes("HTTP/1.0 304 OK\n");
+		  		outToClient.writeBytes("HTTP/1.0 304 OK\n");
 		    	//System.out.println("Response line: HTTP/1.0 304 OK");
 		  	} else {
-		  		//outToClient.writeBytes("Last-Modified: " + fileDate + "\r\n");
+		  		outToClient.writeBytes("Last-Modified: " + fileDate + "\r\n");
 		    	//System.out.println("Response header: Last-Modified: "+ fileDate + "\r\n");	
 		  	}
 
