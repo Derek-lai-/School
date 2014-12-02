@@ -8,41 +8,43 @@ import java.io.*;
 import java.net.*;
 import java.util.*;
 import java.text.SimpleDateFormat;
+import javax.net.ssl.*;
+import java.security.KeyStore;
 
 class HTTPThreads implements Runnable {
 	public Socket connectionSocket = null;
 	public String http_root_path = null;
 	public static Date lastMod;
-    public static SimpleDateFormat fmt;
+	public static SimpleDateFormat fmt;
 
-    // constructor to instantiate the HTTPThread object
-    public HTTPThreads(Socket connectionSocket, String http_root_path) {
-    	this.connectionSocket = connectionSocket;
-    	this.http_root_path = http_root_path;
-    }
+	// constructor to instantiate the HTTPThread object
+	public HTTPThreads(Socket connectionSocket, String http_root_path) {
+		this.connectionSocket = connectionSocket;
+		this.http_root_path = http_root_path;
+	}
 
-    public void run() {
-	// invoke processRequest() to process the client request and then generateResponse()
-	// to output the response message
-    	try {
-    		processRequest(connectionSocket);
-    	} catch (Exception e) {
-    		//System.out.println(e);
-    	}
-    } 
+	public void run() {
+		// invoke processRequest() to process the client request and then generateResponse()
+		// to output the response message
+		try {
+			processRequest(connectionSocket);
+		} catch (Exception e) {
+			//System.out.println(e);
+		}
+	} 
 
-    private void processRequest(Socket connectionSocket) throws Exception {
-	// same as in single-threaded (this code is inline in the starter code)
-	// create buffered reader for client input
+	private void processRequest(Socket connectionSocket) throws Exception {
+		// same as in single-threaded (this code is inline in the starter code)
+		// create buffered reader for client input
 		BufferedReader inFromClient =  new BufferedReader(new InputStreamReader(connectionSocket.getInputStream())); 
 
 		String requestLine = null;	// the HTTP request line
 		String requestHeader = null;	// HTTP request header line
 
-	/* Read the HTTP request line and display it on Server stdout.
-	 * We will handle the request line below, but first, read and
-	 * print to stdout any request headers (which we will ignore).
-	 */
+		/* Read the HTTP request line and display it on Server stdout.
+		 * We will handle the request line below, but first, read and
+		 * print to stdout any request headers (which we will ignore).
+		 */
 		requestLine = inFromClient.readLine();
 		//System.out.println("Request Line: " + requestLine);
 
@@ -58,30 +60,30 @@ class HTTPThreads implements Runnable {
 		}
 
 
-	// now back to the request line; tokenize the request
+		// now back to the request line; tokenize the request
 		StringTokenizer tokenizedLine = new StringTokenizer(requestLine);
-	// process the request
+		// process the request
 		if (tokenizedLine.nextToken().equals("GET")) {
-		    String urlName = null;	    
-	    // parse URL to retrieve file name
-	  	  urlName = tokenizedLine.nextToken();
-    
-	    	if (urlName.startsWith("/") == true )
+			String urlName = null;	    
+			// parse URL to retrieve file name
+			urlName = tokenizedLine.nextToken();
+
+			if (urlName.startsWith("/") == true )
 				urlName  = urlName.substring(1);
-	    
-	    	generateResponse(urlName, connectionSocket);
+
+			generateResponse(urlName, connectionSocket);
 
 		} else 
-	    	System.out.println("Bad Request Message");
+			System.out.println("Bad Request Message");
 
 
 	}
-    
 
-    private void generateResponse(String urlName, Socket connectionSocket) throws Exception {
-	// same as in single-threaded
-    	// ADD_CODE: create an output stream  
-    	DataOutputStream outToClient = new DataOutputStream(connectionSocket.getOutputStream());
+
+	private void generateResponse(String urlName, Socket connectionSocket) throws Exception {
+		// same as in single-threaded
+		// ADD_CODE: create an output stream  
+		DataOutputStream outToClient = new DataOutputStream(connectionSocket.getOutputStream());
 
 		String fileLoc = http_root_path + "/" + urlName; // ADD_CODE: map urlName to rooted path  
 		//System.out.println ("Request Line: GET " + fileLoc);
@@ -89,108 +91,142 @@ class HTTPThreads implements Runnable {
 		File file = new File( fileLoc );
 		if (!file.isFile())
 		{
-		    // generate 404 File Not Found response header
-		    outToClient.writeBytes("HTTP/1.0 404 File Not Found\r\n");
-		    // and output a copy to server's stdout
-		    System.out.println ("HTTP/1.0 404 File Not Found\r\n");
+			// generate 404 File Not Found response header
+			outToClient.writeBytes("HTTP/1.0 404 File Not Found\r\n");
+			// and output a copy to server's stdout
+			//System.out.println ("HTTP/1.0 404 File Not Found\r\n");
 		} else {
-		    // get the requested file content
-		    int numOfBytes = (int) file.length();
-		    
-		    FileInputStream inFile  = new FileInputStream (fileLoc);
-		
-		    byte[] fileInBytes = new byte[numOfBytes];
-		    inFile.read(fileInBytes);
+			// get the requested file content
+			int numOfBytes = (int) file.length();
 
-		    // ADD_CODE: generate HTTP response line; output to stdout
-		    outToClient.writeBytes("HTTP/1.0 200 OK\n");
-		    //System.out.println("Response line: HTTP/1.0 200 OK");
-		
-		    // ADD_CODE: generate HTTP Content-Type response header; output to stdout
-		    if (urlName.endsWith(".jpg")){
-		    	outToClient.writeBytes("Content-Type: image/jpeg\n");
-		    	//System.out.println("Response header: Content-Type: image/jpeg\n");
-		    } else if (urlName.endsWith(".html")){
-		    	outToClient.writeBytes("Content-Type: text/html\n");
-		    	//System.out.println("Response header: Content-Type: text/html\n");
-		    } else if (urlName.endsWith(".css")){
-		    	outToClient.writeBytes("Content-Type: text/css\n");
-		    	//System.out.println("Response header: Content-Type: text/css\n");
-		    } else if (urlName.endsWith(".js")){
-		    	outToClient.writeBytes("Content-Type: text/js\n");
-		    	//System.out.println("Response header: Content-Type: text/js\n");
-		    } else if (urlName.endsWith(".txt")){
-		    	outToClient.writeBytes("Content-Type: text/txt\n");
-		    	//System.out.println("Response header: Content-Type: text/txt\n");
-		    }
+			FileInputStream inFile  = new FileInputStream (fileLoc);
 
-		    // ADD_CODE: generate HTTP Content-Length response header; output to stdout
+			byte[] fileInBytes = new byte[numOfBytes];
+			inFile.read(fileInBytes);
 
-		   	outToClient.writeBytes("Content-Length: " + numOfBytes + "\r\n");
-		    //System.out.println("Response Header: Content-Length: " + numOfBytes + "\r\n");
-		    SimpleDateFormat sdf = new SimpleDateFormat("MM/dd/yyyy HH:mm:ss");
-		    outToClient.writeBytes("Last-Modified: " + file.lastModified() + "\r\n");
-		    //System.out.println("Response header: Last-Modified: "+ sdf.format(file.lastModified()) + "\r\n");
+			// ADD_CODE: generate HTTP response line; output to stdout
+			outToClient.writeBytes("HTTP/1.0 200 OK\n");
+			//System.out.println("Response line: HTTP/1.0 200 OK");
 
-		    inFile.close();
-		    outToClient.writeBytes("\r\n\r\n");
-		    // send file content
-		    outToClient.write(fileInBytes, 0, numOfBytes);
+			// ADD_CODE: generate HTTP Content-Type response header; output to stdout
+			if (urlName.endsWith(".jpg")){
+				outToClient.writeBytes("Content-Type: image/jpeg\n");
+				//System.out.println("Response header: Content-Type: image/jpeg\n");
+			} else if (urlName.endsWith(".html")){
+				outToClient.writeBytes("Content-Type: text/html\n");
+				//System.out.println("Response header: Content-Type: text/html\n");
+			} else if (urlName.endsWith(".css")){
+				outToClient.writeBytes("Content-Type: text/css\n");
+				//System.out.println("Response header: Content-Type: text/css\n");
+			} else if (urlName.endsWith(".js")){
+				outToClient.writeBytes("Content-Type: text/js\n");
+				//System.out.println("Response header: Content-Type: text/js\n");
+			} else if (urlName.endsWith(".txt")){
+				outToClient.writeBytes("Content-Type: text/txt\n");
+				//System.out.println("Response header: Content-Type: text/txt\n");
+			}
+
+			// ADD_CODE: generate HTTP Content-Length response header; output to stdout
+
+			outToClient.writeBytes("Content-Length: " + numOfBytes + "\r\n");
+			//System.out.println("Response Header: Content-Length: " + numOfBytes + "\r\n");
+			SimpleDateFormat sdf = new SimpleDateFormat("MM/dd/yyyy HH:mm:ss");
+			outToClient.writeBytes("Last-Modified: " + file.lastModified() + "\r\n");
+			//System.out.println("Response header: Last-Modified: "+ sdf.format(file.lastModified()) + "\r\n");
+
+			inFile.close();
+			outToClient.writeBytes("\r\n\r\n");
+			// send file content
+			outToClient.write(fileInBytes, 0, numOfBytes);
 		}  // end else (file found case)
 
 		// close connectionSocket
 		connectionSocket.close();
-    } // end of generateResponse
-    
+	} // end of generateResponse
+
 
 }
 
 public final class ThreadHTTPSServer {
 
 	public static int serverPort = 35130;    // default port CHANGE THIS
-    public static String http_root_path = "/csmhome/laihoche/cscd58f14_space/";    // rooted default path in your mathlab area
-    
-    public static void main(String args[]) throws Exception  {
+	public static String http_root_path = "/csmhome/laihoche/cscd58f14_space/";    // rooted default path in your mathlab area
 
-		if (args.length > 0){
-    		serverPort = Integer.parseInt(args[0]);
-    		http_root_path = args[1];
-    	}
+	public static void main(String args[]) throws Exception  {
 
-		if (args.length > 2) {
-		    System.out.println("usage: java HTTPServer [port_# [http_root_path]]");
-		    System.exit(0);
+		String keystorename = "httpserverkeys";
+		char[] ksPass = null;
+		char[] ctPass = null;
+
+
+		switch(args.length) {
+			case 2:
+				ksPass = args[0].toCharArray();
+				ctPass = args[1].toCharArray();
+				break;
+			case 3:
+				ksPass = args[0].toCharArray();
+				ctPass = args[1].toCharArray();
+				serverPort = Integer.parseInt(args[2]);
+				break;
+			case 4:
+				ksPass = args[0].toCharArray();
+				ctPass = args[1].toCharArray();
+				serverPort = Integer.parseInt(args[2]);
+				http_root_path = args[3];
+				break;
 		}
 
-	// ADD_CODE: create server socket 
-		ServerSocket serverSocket = null;
+		if (args.length > 4) {
+			System.out.println("usage: java HTTPServer sslKeystore sslsocketkey [port_# [http_root_path]]");
+			System.exit(0);
+		}
+
+
+
+		// ADD_CODE: create server socket 
+		SSLServerSocketFactory ssf = null;
+		SSLServerSocket ss = null;
 
 		try{
-			serverSocket = new ServerSocket(serverPort);
-		} catch (Exception e) {
+			KeyStore keyStore = KeyStore.getInstance(KeyStore.getDefaultType());
+			keyStore.load(new FileInputStream(keystorename), ksPass);
+
+			KeyManagerFactory kmf = KeyManagerFactory.getInstance("SunX509");
+			kmf.init(keyStore, ctPass);
+
+			SSLContext sslContext = SSLContext.getInstance("SSLv3");
+			sslContext.init(kmf.getKeyManagers(), null, null);
+
+			ssf = sslContext.getServerSocketFactory();
+			ss = (SSLServerSocket)ssf.createServerSocket(serverPort);
+		} catch (IOException e) {
+			System.err.println("Cannot open a socket on " + serverPort + ".");
+
+			e.printStackTrace();
 			System.exit(1);
 		}
 
 		System.out.println("Listening on port # " + serverPort + " with server path " + http_root_path);
 
-		Socket clientSocket = null;
-	
-		while (true) {
-		    // accept a connection
-		    try{
-		    	clientSocket = serverSocket.accept();
-		    	//System.out.println("Connection from " + clientSocket.getInetAddress() + "." + clientSocket.getPort());
-		    // Construct an HTTPThread object to process the accepted connection
-		    	HTTPThreads htt;
-		    // Wrap the HTTPThread in a Thread object
-		    	htt = new HTTPThreads(clientSocket, http_root_path);
-		    // Start the thread.
-		    	htt.run();
-		    } catch (Exception e){
+		System.out.println("CipherSuites: " + Arrays.toString(ss.getEnabledCipherSuites()));
+		System.out.println("Protocols: "+ Arrays.toString(ss.getEnabledProtocols()));
 
-		    }
+		while (true) {
+			// accept a connection
+			try{
+				Socket clientSocket = ss.accept();
+				//System.out.println("Connection from " + clientSocket.getInetAddress() + "." + clientSocket.getPort());
+				// Construct an HTTPThread object to process the accepted connection
+				HTTPThreads htt = new HTTPThreads(clientSocket, http_root_path);
+				// Start the thread.
+				htt.run();
+			} catch (IOException e){
+				System.err.println("IOException when accepting connection.");
+			}
 		}
-	
-    } 
+
+	} 
 
 }
+
